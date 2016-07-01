@@ -296,6 +296,15 @@
 					</webApp>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>codetura-maven-plugin</artifactId>
+				<version>2.5.1</version>
+				<configuration>
+					<format>html</format>
+					<format>xml</format>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
